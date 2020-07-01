@@ -6,7 +6,12 @@ WORKDIR /app/
 
 COPY package*.json ./
 
-RUN npm install --production
+RUN apk add --no-cache --virtual .gyp \
+        python \
+        make \
+        g++ \
+    && npm install --production
+    && apk del .gyp
 
 COPY *.js ./
 
