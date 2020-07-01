@@ -10,7 +10,8 @@
   "license": "LGPL-3.0-only",
   "dependencies": {
     "azure-iot-device": "^1.16.0",
-    "azure-iot-device-mqtt": "^1.14.1"
+    "azure-iot-device-mqtt": "^1.14.1",
+    "grpc": "^1.24.3"
   },
   "devDependencies": {
     "@ceruleandatahub/proto": "^1.1.0",
