@@ -1,0 +1,25 @@
+{
+  "name": "@ceruleandatahub/identity-gateway-grpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antti Rintala <rintsi@gmail.com>",
+  "license": "LGPL-3.0-only",
+  "dependencies": {
+    "azure-iot-device": "^1.16.0",
+    "azure-iot-device-mqtt": "^1.14.1"
+  },
+  "devDependencies": {
+    "@ceruleandatahub/proto": "^1.1.0",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  }
+}
