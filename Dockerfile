@@ -1,4 +1,4 @@
-FROM --platform=$TARGETPLATFORM node:lts
+FROM --platform=$TARGETPLATFORM node:lts-slim
 
 ARG TARGETPLATFORM
 
