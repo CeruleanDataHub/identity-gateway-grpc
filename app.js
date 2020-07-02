@@ -60,7 +60,7 @@ function sendTelemetry(call, callback) {
     )
   );*/
   console.log('Send message', JSON.stringify(message));
-  moduleClient.sendEvent(message, printResultFor('Sending event to upstream'));
+  //moduleClient.sendEvent(message, printResultFor('Sending event to upstream'));
   moduleClient.sendOutputEvent(
     OUTPUT_EVENT_NAMESPACE,
     message,
