@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --passWithNoTests"
   },
   "author": "Antti Rintala <rintsi@gmail.com>",
   "license": "LGPL-3.0-only",
@@ -20,6 +20,7 @@
     "eslint-loader": "^4.0.2",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
+    "jest": "^26.3.0",
     "lint-staged": "^10.2.11",
     "prettier": "^2.0.5"
   }
